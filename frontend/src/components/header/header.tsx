@@ -62,13 +62,13 @@ export default function Header() {
                         </Link>
                      </li>
                      <li>
-                        <Link href="/habitats" onClick={() => setMenuOpen(false)} className="hover:text-green-700">
-                           Habitat
+                        <Link href="/cadastrar-animal" onClick={() => setMenuOpen(false)} className="hover:text-green-700">
+                           Cadastrar Animais
                         </Link>
                      </li>
                      <li>
                         <Link href="/novos" onClick={() => setMenuOpen(false)} className="hover:text-green-700">
-                           Recém-chegados
+                           Funcionarios Ativos
                         </Link>
                      </li>
                   </ul>
