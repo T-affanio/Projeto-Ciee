@@ -27,13 +27,13 @@ export const ModalAnimal = ({ animal, onClose }: ModalAnimalProps) => {
       <h2 className="text-2xl font-semibold mb-3 text-[#ffd900f8]">{animal.name}</h2>
 
       {/* Carrossel de Imagens */}
-      <div className="relative mb-5 mx-auto">
+      <div className="relative mb-5 mx-auto items-center">
          <Image
             src={animal.images[currentImageIndex]}
             alt={animal.name}
             width={1900}
             height={450}
-            className="rounded-md shadow-md mb-5 object-cover w-[90%] h-[530px] items-end"
+            className="rounded-md shadow-md mb-5 object-cover w-full h-[530px] items-center"
          />
       </div>
 
