@@ -5,7 +5,6 @@ export const MamiferosHerbivoros: Animal[] =[
         images:[
             '/Image/animal/girafa/girafa.webp',
             '/Image/animal/girafa/girafa 1.jpg',
-            '/Image/animal/girafa/girafa 2.jpeg',
             '/Image/animal/girafa/girafa 3.jpg',
         ],
         description:'As girafas são mamíferos nativos da África, conhecidos por suas longas pernas e pescoço, que as tornam os animais terrestres mais altos do mundo. Elas podem atingir até 5,5 metros de altura. Sua pelagem é marcada por manchas irregulares, que variam entre o marrom e o amarelo. As girafas se alimentam principalmente de folhas de árvores, especialmente as acácias, usando sua língua longa e flexível para alcançá-las. Elas têm uma expectativa de vida de cerca de 25 anos na natureza e são animais sociais, vivendo em grupos conhecidos como torres.',

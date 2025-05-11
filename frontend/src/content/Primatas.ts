@@ -5,7 +5,6 @@ export const Primatas: Animal[] = [
         images: [
             '/Image/animal/gorilas/gorila.jpg',
             '/Image/animal/gorilas/gorila 1.jpg',
-            '/Image/animal/gorilas/gorila 2.webp',
             '/Image/animal/gorilas/gorila 3.jpg'
         ],
         description: "Gorila Silverback — Líder forte e imponente, protege seu grupo com inteligência e coragem. Um gigante da selva, tão sereno quanto poderoso. ",

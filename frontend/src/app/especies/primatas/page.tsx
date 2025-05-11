@@ -12,7 +12,7 @@ export const PrimatasPage = () => {
 
     return (
         <main className="p-6">
-            <h1 className="text-3xl font-bold mb-4">Primatas</h1>
+            <h1 className="text-3xl font-bold mb-4  text-[#cccecd]">Primatas</h1>
             <p className="text-gray-600 mb-6">Clique em um animal para saber mais:</p>
 
             <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-6 ">

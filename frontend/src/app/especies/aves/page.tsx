@@ -12,7 +12,7 @@ export const AvesPage = () =>  {
     
     return(
         <main className="p-6">
-            <h1 className="text-3xl font-bold mb-4 ">Aves</h1>
+            <h1 className="text-3xl font-bold mb-4  text-[#cccecd]">Aves</h1>
             <p className="text-gray-600 mb-6"> Cliqueem um animal para saber mais:</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">

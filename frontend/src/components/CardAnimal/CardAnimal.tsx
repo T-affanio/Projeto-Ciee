@@ -8,7 +8,7 @@ type CardAnimalProps = {
 };
 
 export const CardAnimal = ({ animal, onClick }: CardAnimalProps) => (
-   <div onClick={onClick} className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden cursor-pointer ">
+   <div onClick={onClick} className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden cursor-pointer  w-11/12">
       {/* Acessando a primeira imagem do array animal.images */}
       <Image
          src={animal.images[0]} // Acessa a primeira imagem

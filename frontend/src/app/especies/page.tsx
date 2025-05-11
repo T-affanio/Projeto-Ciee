@@ -40,7 +40,7 @@ export const Especies = () => {
       },
       {
          name: 'Anfíbios',
-         image: '/Image/especies/anfibio.jpg',
+         image: '/Image/animal/salamandra/salamandra.jpg',
          link: '/especies/anfibios',
       },
       {
@@ -52,17 +52,17 @@ export const Especies = () => {
 
    return (
       <main className="p-6">
-         <h1 className="text-2xl font-bold mb-4">Espécies</h1>
+         <h1 className="text-3xl font-bold mb-4 text-[#cccecd]">Espécies:</h1>
          <p className="text-gray-600 mb-6 ">Veja os animais divididos por categoria de espécie:</p>
 
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
             {especies.map((especie, index) => (
                <Link href={especie.link} key={index}>
-                  <div key={index} className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden h-96">
+                  <div key={index} className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden h-96 hover:scale-105">
                      <Image src={especie.image} alt={especie.name} width={500} height={450} className="w-full h-72 object-cover" />
-                     <div className="bg-gray-600 h-full text-center">
-                        <h3 className="text-lg font-semibold">{especie.name}</h3>
-                        <p>Clique para ver os animais dessa espécie.</p>
+                     <div className="bg-green-900 pt-4 h-full text-center">
+                        <h3 className="text-lg font-semibold text-[#f1c602]">{especie.name}</h3>
+                        <p className='text-gray-500'>Clique para ver os animais dessa espécie.</p>
                      </div>
                   </div>
                </Link>

@@ -6,7 +6,6 @@ export const mamiferosCarnivoros: Animal[] = [
          '/Image/animal/lion.jpg',
          '/Image/animal/leao/bando.webp',
          '/Image/animal/leao/filhotes.jpg',
-         '/Image/animal/leao/predando.webp',
          '/Image/animal/leao/lion3.jpg',
       ],
       description: 'Os leões vivem em grupos sociais e são conhecidos pela juba imponente dos machos. Eles dominam as savanas africanas, mas enfrentam ameaças à sua sobrevivência. Fique curioso para descobrir mais sobre esses incríveis predadores!',

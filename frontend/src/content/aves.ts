@@ -5,7 +5,6 @@ export const Aves:Animal[] = [
         images:[
             '/Image/animal/araraAzul/arara 3.jpg',
             '/Image/animal/araraAzul/arara1.jpg',
-            '/Image/animal/araraAzul/arara 2.jpg',
             '/Image/animal/araraAzul/arara5.webp',
         ],
         description:'Com penas de um azul vibrante e um chamado inconfundível, a arara-azul encanta por onde passa. É a maior arara do mundo e símbolo da biodiversidade brasileira.',
