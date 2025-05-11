@@ -24,16 +24,16 @@ export const ModalAnimal = ({ animal, onClose }: ModalAnimalProps) => {
                &times;
             </button>
             <h2 className="text-2xl font-semibold mb-3 text-[#ffd900f8]">{animal.name}</h2>
-            
+
             {/* Carrossel de Imagens */}
             <div className="relative mb-5 mx-auto">
                {/* Imagem atual */}
-               <Image 
-                  src={animal.images[currentImageIndex]} 
-                  alt={animal.name} 
-                  width={900} 
-                  height={250} 
-                  className="rounded-md shadow-md mb-5 object-cover w-full h-[590px]" 
+               <Image
+                  src={animal.images[currentImageIndex]}
+                  alt={animal.name}
+                  width={900}
+                  height={250}
+                  className="rounded-md shadow-md mb-5 object-cover w-full h-[590px]"
                />
             </div>
 
@@ -50,16 +50,16 @@ export const ModalAnimal = ({ animal, onClose }: ModalAnimalProps) => {
 
             <div className="font-bold text-[#9b9a9a] grid grid-cols-2 gap-6 text-center">
                <p className="mb-4 border-b-2 p-2 ">
-                  <strong className='text-black'>Curiosidades:</strong> {animal.curiosities}
+                  <strong className="text-black">Curiosidades:</strong> {animal.curiosities}
                </p>
                <p className="mb-4 border-b-2 p-2">
-                  <strong className='text-black'>Habitat:</strong> {animal.habitat}
+                  <strong className="text-black">Habitat:</strong> {animal.habitat}
                </p>
                <p className="mb-4 border-b-2 p-2">
-                  <strong className='text-black'>Idade:</strong> {animal.age}
+                  <strong className="text-black">Idade:</strong> {animal.age}
                </p>
                <p className="mb-4 border-b-2 ">
-                  <strong className='text-black'>Origem:</strong> {animal.origin}
+                  <strong className="text-black">Origem:</strong> {animal.origin}
                </p>
             </div>
          </div>
