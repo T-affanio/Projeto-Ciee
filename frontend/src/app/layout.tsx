@@ -29,7 +29,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased stroke-neutral-300`}
       >
         <Header/>
-        {children}
+        <main className='pt-28'>{children}</main>
+        
       </body>
     </html>
   );

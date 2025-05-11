@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header className="bg-green-900 h-28 shadow-md fixed w-full z-50 flex items-center">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between w-full">
-        <h1 className="text-2xl font-bold text-yellow-100">ReservaVerde</h1>
+        <Link href="/" className="text-2xl font-bold text-yellow-100">ReservaVerde</Link>
 
         {/* Busca dinâmica */}
         <div className="flex items-center gap-3">
