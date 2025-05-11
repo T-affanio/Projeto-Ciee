@@ -7,7 +7,7 @@ export default function HomePage() {
       <div>
          {/* Carrossel */}
          <section className="text-center py-10 px-4 w-full ">
-            <div className="mt-6 h-[850px] w-full rounded-lg flex items-center justify-center">
+            <div className=" h-[850px] w-full rounded-lg flex items-center justify-center">
                <Carousel />
             </div>
             <div className="pt-20">
@@ -24,7 +24,7 @@ export default function HomePage() {
          {/* Cards */}
          <section className="flex flex-col md:flex-row gap-6 justify-center py-10 px-4">
             <Link href="/animais" className="bg-white shadow-md rounded-lg p-6 text-center w-full max-w-xs hover:shadow-lg transition">
-               <h3 className="text-xl font-bold mb-2">Cadastrar Animais</h3>
+               <h3 className="text-xl font-bold mb-2 text-teal-800">Recem chegados!</h3>
                <p className="text-gray-600">Gerencie os animais do zoológico</p>
             </Link>
 

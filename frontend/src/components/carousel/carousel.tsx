@@ -20,7 +20,7 @@ export const Carousel = () => {
    ];
 
    return (
-      <div className="w-full h-[850px]">
+      <div className="w-full h-[850px] cursor-pointer">
          <Swiper
             modules={[Pagination, Autoplay]}
             slidesPerView={1}

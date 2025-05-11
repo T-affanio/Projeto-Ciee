@@ -22,7 +22,7 @@ export default function Header() {
    return (
       <header className="bg-green-900 h-28 shadow-md fixed w-full z-50 flex items-center">
          <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between w-full">
-            <Link href="/" className="text-2xl font-bold text-yellow-100">
+            <Link href="/" className="text-2xl font-bold text-[#f1c602]">
                ReservaVerde
             </Link>
 
@@ -32,20 +32,20 @@ export default function Header() {
                   <form onSubmit={handleSearch}>
                      <input
                         type="text"
-                        placeholder="Buscar (ex: animais)"
+                        placeholder="Buscar (ex: Espécies)"
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                         autoFocus
-                        className="border border-green-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all w-56"
+                        className="border border-green-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-900 transition-all w-56"
                      />
                   </form>
                )}
-               <button onClick={() => setShowSearch(!showSearch)} className="text-yellow-200">
+               <button onClick={() => setShowSearch(!showSearch)} className="text-[#f1c602]">
                   <Search size={24} />
                </button>
 
                {/* Botão de menu */}
-               <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Abrir menu" className="text-yellow-200">
+               <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Abrir menu" className="text-[#f1c602]">
                   {menuOpen ? <X size={28} /> : <Menu size={28} />}
                </button>
             </div>
@@ -53,7 +53,7 @@ export default function Header() {
 
          {/* Menu Dropdown */}
          {menuOpen && (
-            <div className="bg-green-200 shadow-lg border-t border-green-300 absolute w-full top-full z-40">
+            <div className="bg-[#f1c602] shadow-lg border-t border-green-900 absolute w-full top-full z-40">
                <div className="px-6 py-4 flex flex-col gap-4">
                   <ul className="flex flex-col gap-3 text-green-900">
                      <li>

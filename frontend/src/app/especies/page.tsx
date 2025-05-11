@@ -6,47 +6,47 @@ export const Especies = () => {
       {
          name: 'Mamíferos Carnívoros',
          image: '/Image/especies/mamiferoCarnivoro.jpg',
-         link: '/animais/mamiferos-carnivoros',
+         link: '/especies/mamiferos-carnivoros',
       },
       {
          name: 'Mamíferos Herbívoros',
          image: '/Image/especies/mamiferoHerbivoro.jpg',
-         link: '/animais/mamiferos-herbivoros',
+         link: '/especies/mamiferos-herbivoros',
       },
       {
          name: 'Aves',
          image: '/Image/especies/Aves.webp',
-         link: '/animais/aves',
+         link: '/especies/aves',
       },
       {
          name: 'Aves de Rapina',
          image: '/Image/especies/Aves de Rapina.webp',
-         link: '/animais/aves-de-rapina',
+         link: '/especies/aves-de-rapina',
       },
       {
          name: 'Marsupiais',
          image: '/Image/especies/Marsupiais.jpg',
-         link: '/animais/marsupiais',
+         link: '/especies/marsupiais',
       },
       {
          name: 'Répteis',
          image: '/Image/especies/reptris.jpg',
-         link: '/animais/repteis',
+         link: '/especies/repteis',
       },
       {
          name: 'Primata',
          image: '/Image/especies/primata.webp',
-         link: '/animais/primatas',
+         link: '/especies/primatas',
       },
       {
          name: 'Anfíbios',
          image: '/Image/especies/anfibio.jpg',
-         link: '/animais/anfibios',
+         link: '/especies/anfibios',
       },
       {
          name: 'Fauna Marinha',
          image: '/Image/especies/Fauna Marinha.webp',
-         link: '/animais/fauna-marinha',
+         link: '/especies/fauna-marinha',
       },
    ];
 
