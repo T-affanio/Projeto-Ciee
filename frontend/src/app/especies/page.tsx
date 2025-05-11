@@ -34,7 +34,7 @@ export const Especies = () => {
          link: '/especies/repteis',
       },
       {
-         name: 'Primata',
+         name: 'Primatas',
          image: '/Image/especies/primata.webp',
          link: '/especies/primatas',
       },
