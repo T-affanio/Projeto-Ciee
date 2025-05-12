@@ -178,10 +178,10 @@ const AdminDashboard = () => {
                   className="w-full border p-2 rounded"
                />
                {/* Selecionar espécie para associar o animal */}
-               <select value={selectedSpecies} onChange={(e) => setSelectedSpecies(e.target.value)} className="w-full border p-2 rounded">
-                  <option value="">Selecione uma espécie</option>
+               <select value={selectedSpecies} onChange={(e) => setSelectedSpecies(e.target.value)} className="w-full border p-2 rounded cursor-pointer ">
+                  <option value="" className='text-black'>Selecione uma espécie</option>
                   {speciesList.map((specie, index) => (
-                     <option key={index} value={specie.name}>
+                     <option key={index} value={specie.name} className='text-black '>
                         {specie.name}
                      </option>
                   ))}
@@ -213,8 +213,8 @@ const AdminDashboard = () => {
          {/* Modal de sucesso */}
          {modalVisible && (
             <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-               <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm text-center space-y-4">
-                  <h2 className="text-xl font-bold text-green-600">✅ Sucesso</h2>
+               <div className="bg-green-900 p-6 rounded-lg shadow-lg max-w-sm text-center space-y-4">
+                  <h2 className="text-xl font-bold text-[#f1c602]">✅ Sucesso</h2>
                   <p>{modalMessage}</p>
                   <button onClick={() => setModalVisible(false)} className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
                      Fechar

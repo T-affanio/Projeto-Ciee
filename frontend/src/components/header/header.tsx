@@ -85,8 +85,8 @@ export default function Header() {
                         </Link>
                      </li>
                      <li>
-                        <Link href="/novos" onClick={() => setMenuOpen(false)} className="hover:text-[#fafaf8]">
-                           Funcionários Ativos
+                        <Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-[#fafaf8]">
+                           Home
                         </Link>
                      </li>
                   </ul>
