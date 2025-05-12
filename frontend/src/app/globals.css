@@ -26,7 +26,7 @@ body {
 }
 .custom-pagination .swiper-pagination-bullet {
    width: 30px;
-   height: 17px;
+   height: 19px;
    background-color: #fff;
    opacity: 0.5;
    transition: all 0.3s ease;
@@ -36,8 +36,9 @@ body {
 
 .custom-pagination .swiper-pagination-bullet-active {
    transform: scale(1.5);
-   opacity: 1;
+   opacity: 0.9;
    background-color: #f5f7f8; /* Azul claro (tailwind: sky-400) */
-   height: 20px;
-   width: 35px;
+   height: 19px;
+   width: 30px;
 }
+

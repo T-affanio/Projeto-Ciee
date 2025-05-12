@@ -9,7 +9,7 @@ import { useState } from 'react';
 export const MamiferosHerbivorosPage = () => {
    const [animalCadastrado, setAnimalCadastrado] =useState<Animal | null>(null);
    return (
-      <main className='p-6'>
+      <main className='p-6 pt-26 md:pt-32'>
          <h1 className='text-3xl font-bold mb-4  text-[#cccecd]'>Mamíferos Herbívoros</h1>
          <p className='text-gray-600 mb-6 '>Clique em um animal para saber mais:</p>
 

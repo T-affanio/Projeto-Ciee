@@ -10,7 +10,7 @@ export const MarsupiaisPage = () => {
    const [animalCadastrado, setAnimalCadastrado] = useState<Animal | null>(null);
 
    return (
-      <main className="p-6">
+      <main className='p-6 pt-26 md:pt-32'>
          <h1 className="text-3xl font-bold mb-4  text-[#cccecd] ">Marsupiais</h1>
          <p className="text-gray-600 mb-6"> Clique em um animal para saber mais:</p>
 
